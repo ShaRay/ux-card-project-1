@@ -8,7 +8,8 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
+    "basscss": "^8.0.1",
     "basscss-background-colors": "^2.1.0",
     "basscss-border-colors": "^2.1.0",
     "basscss-btn": "^1.1.1",
@@ -19,7 +20,9 @@
     "basscss-responsive-margin": "^1.1.0",
     "basscss-responsive-padding": "^1.1.0"
   },
-  "dependencies": {
-    "basscss": "^8.0.1"
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-serve": "^1.2.0"
   }
 }
