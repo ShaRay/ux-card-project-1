@@ -4,6 +4,8 @@
 @import "vendor/colors";
 @import "vendor/background-colors";
 @import "vendor/background-images";
+@import "vendor/align";
+@import "vendor/utility-headings";
 
 
 body {
@@ -12,6 +14,6 @@ body {
 }
 
 .hero {
-  background-image: url(../img/ocean-img1.jpg);
-  
+  background-image: url(../img/hero-bg.jpg);
+  height: 100vh;
 }
